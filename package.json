@@ -1,0 +1,45 @@
+{
+  "name": "day-buddy",
+  "productName": "day-buddy",
+  "version": "1.0.0",
+  "description": "Your personal day buddy - Get started with your day right!",
+  "main": ".webpack/main",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\"",
+    "dev": "NODE_ENV=development electron-forge start"
+  },
+  "keywords": ["productivity", "chatbot", "calendar", "mindset"],
+  "author": {
+    "name": "Samgar Aidarhanov Pautrat",
+    "email": "aidarhans@bxscience.edu"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.8.1",
+    "@electron-forge/maker-deb": "^7.8.1",
+    "@electron-forge/maker-rpm": "^7.8.1",
+    "@electron-forge/maker-squirrel": "^7.8.1",
+    "@electron-forge/maker-zip": "^7.8.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.8.1",
+    "@electron-forge/plugin-fuses": "^7.8.1",
+    "@electron-forge/plugin-webpack": "^7.8.1",
+    "@electron/fuses": "^1.8.0",
+    "@vercel/webpack-asset-relocator-loader": "^1.7.3",
+    "css-loader": "^6.11.0",
+    "electron": "37.1.0",
+    "node-loader": "^2.1.0",
+    "style-loader": "^3.3.4"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1",
+    "openai": "^4.28.0",
+    "googleapis": "^133.0.0",
+    "axios": "^1.6.0",
+    "node-cron": "^3.0.3",
+    "electron-store": "^8.1.0"
+  }
+}
